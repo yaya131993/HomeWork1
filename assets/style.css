@@ -1,0 +1,100 @@
+
+body {
+  margin: 0;
+  background-image: url("./img/painted-watercolor.webp");
+}
+
+.header {
+  display: flex; justify-content: center;
+  background-color: #012442;
+  font-size: 30px;
+}
+
+.header ul li {
+  padding-left: 100px;
+  padding-right: 100px;
+  display: inline;
+  font-family: cursive; color: rgb(51, 3, 95);
+  font-size: 25px;
+}
+
+.photo {
+  display: flex; 
+  justify-content: center;
+  padding: 20px;
+}
+
+img {
+  border-radius: 50px;
+}
+
+.photo h1 {
+  display: flex;
+  justify-content: end;
+  padding-top: 50px;
+  padding-left: 20px;
+  font-family: cursive; color: rgb(51, 3, 95);
+  font-size: 60px;
+}
+
+.about {
+  display: flex; flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-family: cursive; color: rgb(51, 3, 95);
+}
+
+.about h2 { 
+  display: flex;
+  padding: 30px;
+  font-size: 80px;
+}
+
+.about p {
+  display: flex; align-items: center;
+  padding: 30px;
+}
+
+.work {
+  display: flex; 
+  justify-content: space-between;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-family: cursive; color: rgb(51, 3, 95);
+}
+
+.work h2 {
+  display: flex; align-items: center;
+  padding: 30px;
+  font-size: 80px;
+}
+
+.work h3 {
+  display: flex;
+  padding: 20px;
+  margin: 20px; color: black;
+  border-style: groove;
+  border-color: black;
+}
+
+.contactme {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+margin-bottom: 20px;
+  font-family: cursive; color: rgb(51, 3, 95);
+}
+
+.contactme h2 {
+  display: flex; 
+  flex-direction: ;
+  padding: 30px;
+  font-size: 80px;
+}
+
+.contactme h3 {
+  display: flex; align-items: center;
+  padding: 30px;
+  font-family: cursive; color: rgb(51, 3, 95);
+}
